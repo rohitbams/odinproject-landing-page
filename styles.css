@@ -11,7 +11,6 @@ body {
 .box-one,
 .header,
 .footer  {
-    padding: 16px 200px;
     background-color: #1F2937;
 }
 
@@ -21,7 +20,7 @@ body {
 .box-two,
 .box-three,
 .box-four {
-    padding: 16px 200px;
+    padding: 16px 250px;
 }
 
 .header {
@@ -48,14 +47,26 @@ ul {
 
 .box-one {
     display: flex;
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .box-one-left {
     display: flex;
     flex-direction: column;
-    flex: auto;
-    
+    flex: 1;
+    align-content: center;
+    gap: 16px;
+    align-content: flex-end;
+    padding-right: 50px;
+}
+
+.box-one-right {
+    flex: 1;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-one-title {
@@ -69,8 +80,11 @@ ul {
     color: #E5E7EB;
 }
 
+button,
 .button {
-    flex: 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex-grow: 0;
 }
 
 .box-two {
