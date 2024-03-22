@@ -40,11 +40,12 @@ body {
 }
 
 ul {
-    padding: 0;
+    padding-left: 16px;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 16px;
+    flex-shrink: 0;
 }
 
 .header a {
@@ -83,13 +84,14 @@ ul {
     padding-bottom: 8px;
 }
 
-.box-one-right {
+.box-one-placeholder {
     flex: 1;
     background-color: #6D747D;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
+    min-width: fit-content;
 }
 
 button,
@@ -210,12 +212,15 @@ button,
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    flex: 1;
+    flex: 1 9 0;
+    min-width: 50px;
+    margin-left: 16px;;
 }
 
 .box-four-button {
     border: 1px solid #F9FAF8;
     margin-right: 100px;
+    flex-shrink:
 }
 
 .call-to-action {
