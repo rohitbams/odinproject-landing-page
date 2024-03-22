@@ -55,10 +55,23 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    align-content: center;
-    gap: 16px;
-    align-content: flex-end;
+    gap: 0;
     padding-right: 50px;
+    align-items:;
+}
+
+.box-one-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-bottom: 0;
+}
+
+.box-one-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 8px;
+    padding-bottom: 8px;
 }
 
 .box-one-right {
@@ -67,24 +80,19 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box-one-title {
-    font-size: 48px;
-    font-weight: 900;
     color: #F9FAF8;
-}
-
-.box-one-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 button,
 .button {
     background-color: #3882F6;
     color: #F9FAF8;
-    flex-grow: 0;
+    height: 36px;
+    width: 120px;
+    padding: 5px 36px;
+    border-radius: 8px;
+    border-style: none;
+    
 }
 
 .box-two {
