@@ -15,12 +15,16 @@ body {
 }
 
 .header,
-.footer,
+.footer {
+    padding: 16px 250px;
+}
+
 .box-one, 
 .box-two,
 .box-three,
 .box-four {
-    padding: 16px 250px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .header {
@@ -146,4 +150,29 @@ button,
 .footer {
     text-align: center;
     color:#F9FAF8;
+}
+
+.box-three {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 350px;
+    align-items: flex-end;
+    outline: auto;
+    align-content: center;
+}
+
+.box-three-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    padding-bottom: 0;
+    outline: auto;
+}
+
+.quote-credit {
+    font-weight: 700;
+    font-size: 24px;
+    outline: auto;
+    padding-top: 0;
 }
