@@ -97,6 +97,21 @@ button,
 
 .box-two {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-two-container {
+    display: flex;
+    justify-content: center;
+outline: 1px solid black;
+}
+
+.box-two-square {
+    height: 160px;
+    width: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
 }
 
 .box-three {
