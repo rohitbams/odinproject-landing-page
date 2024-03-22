@@ -16,7 +16,7 @@ body {
 
 .header,
 .footer {
-    padding: 16px 250px;
+    padding: 32px 250px;
 }
 
 .box-one, 
@@ -157,7 +157,6 @@ button,
     flex-direction: column;
     padding: 50px 350px;
     align-items: flex-end;
-    outline: auto;
     align-content: center;
 }
 
@@ -167,12 +166,45 @@ button,
     font-weight: 200;
     color: #1F2937;
     padding-bottom: 0;
-    outline: auto;
 }
 
 .quote-credit {
     font-weight: 700;
     font-size: 24px;
-    outline: auto;
     padding-top: 0;
+}
+
+.box-four {
+    display: flex;
+    justify-content: center;
+    padding: 100px 250px;
+}
+
+.box-four-container {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.box-four-call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 100px;
+}
+
+.box-four-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.box-four-button {
+    border: 1px solid #F9FAF8;
+}
+
+.call-to-action {
+    font-size: 24px;
 }
