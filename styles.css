@@ -99,12 +99,20 @@ button,
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.box-two-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 50px; 
 }
 
 .box-two-container {
     display: flex;
-    justify-content: center;
-outline: 1px solid black;
+    justify-content: space-evenly;
 }
 
 .box-two-square {
@@ -112,6 +120,18 @@ outline: 1px solid black;
     width: 160px;
     border: 3px solid #3882F6;
     border-radius: 16px;
+}
+
+.square-text {
+    display: flex;
+    flex: 0;
+    max-width: 163px;  /* find a way to not have to use max-width */
+}
+
+.box-two-box-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box-three {
